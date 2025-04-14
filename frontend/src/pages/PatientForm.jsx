@@ -107,7 +107,7 @@ const PatientForm = () => {
             <h5>Vitals</h5>
             <div className="row mb-3">
               <div className="col">
-                <input type="text" className="form-control" name="Temperature" placeholder="Temperature (°C)" value={form.Temperature} onChange={handleChange} />
+                <input type="text" className="form-control" name="Temperature" placeholder="Temperature (°F)" value={form.Temperature} onChange={handleChange} />
               </div>
               <div className="col">
                 <input type="text" className="form-control" name="HeartRate" placeholder="Heart Rate (bpm)" value={form.HeartRate} onChange={handleChange} />
