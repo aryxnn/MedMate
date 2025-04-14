@@ -15,7 +15,7 @@ const DiagnosisResult = () => {
         }
 
         // API call to fetch the diagnosis history
-        const res = await axios.get('http://localhost:5003/api/diagnose/history', {
+        const res = await axios.get('${process.env.REACT_APP_BACKEND_URL}/api/diagnose/history', {
           headers: { Authorization: `Bearer ${token}` },
         });
 

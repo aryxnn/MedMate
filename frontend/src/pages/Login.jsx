@@ -15,7 +15,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5003/api/auth/login', formData);
+      const res = await axios.post('${process.env.REACT_APP_BACKEND_URL}/api/auth/login', formData);
       console.log('Login response:', res.data); // Add this line to inspect response
   
       const { token, name } = res.data;
