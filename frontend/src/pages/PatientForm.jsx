@@ -48,7 +48,7 @@ const PatientForm = () => {
     setLoading(true);
     try {
       const token = localStorage.getItem('token');
-      await axios.post('${process.env.REACT_APP_BACKEND_URL}/api/diagnose', form, {
+      await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/diagnose`, form, {
         headers: { Authorization: `Bearer ${token}` }
       });
       navigate('/history');

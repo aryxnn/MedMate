@@ -15,7 +15,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('${process.env.REACT_APP_BACKEND_URL}/api/auth/register', formData);
+      const res = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/auth/register`, formData);
   
       // Assuming backend returns token and user like this:
       const { token, name } = res.data;
