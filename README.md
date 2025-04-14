@@ -99,7 +99,7 @@ MedMate is a full-stack medical diagnosis web application that uses AI to analyz
    ```bash
    npm start
 
- **Runs on http://localhost:5003** 
+ **Runs on http://localhost:5000** 
 
 ### 💻 Frontend Setup
 1. **Navigate to the frontend folder:**
