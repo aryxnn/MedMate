@@ -110,7 +110,7 @@ MedMate is a full-stack medical diagnosis web application that uses AI to analyz
    npm install
 3. **Create a .env file inside the frontend folder and add:**
    ```bash
-   REACT_APP_BACKEND_URL=http://localhost:5003
+   REACT_APP_BACKEND_URL=http://localhost:5000
 4. **Start the frontend:**
    ```bash
    npm start
