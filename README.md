@@ -1,70 +1,124 @@
-# Getting Started with Create React App
+# 🩺 MedMate - AI-Powered Symptom Checker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔗 **Live Website:** [https://med-mate-beta.vercel.app](https://med-mate-beta.vercel.app)
 
-## Available Scripts
+MedMate is a full-stack medical diagnosis web application that uses AI to analyze patient symptoms and provide preliminary diagnostic suggestions. It streamlines symptom tracking and healthcare analysis, especially for early evaluations and virtual consult assistance.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🔍 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔐 **Authentication**
+  - Secure login & registration for users
+- 🏠 **Dashboard**
+  - Landing interface with access to features
+- 📋 **Patient Form**
+  - Collects detailed patient info: age, gender, weight, symptoms, medical history, medications, allergies, lifestyle, and more
+- 🤖 **AI-Based Diagnosis**
+  - Processes the patient’s input through an AI-powered system and returns:
+    - Possible medical conditions
+    - Suggested medications
+    - Urgent care alerts (if needed)
+- 📊 **Diagnosis Results**
+  - Neatly displays AI results to the user for further medical consideration
+- ✅ **Responsive Design**
+  - Built with React + Bootstrap for clean UI on all screen sizes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ⚙️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔧 Frontend:
+- React.js (with Bootstrap)
+- Axios for API calls
+- Vercel for deployment
 
-### `npm run build`
+### 🔧 Backend:
+- Node.js + Express.js
+- MongoDB (Mongoose)
+- OpenAI (for diagnosis)
+- Render for backend deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📸 Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### 🔑 Home 
+![Home](./screenshots/home.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🔑 Login Page  
+![Login Page](./screenshots/login.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 📝 Register Page  
+![Register Page](./screenshots/register.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### 🏠 Dashboard  
+![Dashboard](./screenshots/homepage.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 👨‍⚕️ Patient Form  
+![Patient Form](./screenshots/patient-form1.png)
+![Patient Form](./screenshots/patient-form2.png)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🧾 Diagnosis Results  
+![Diagnosis Results](./screenshots/diagnosis-results1.png)
+![Diagnosis Results](./screenshots/diagnosis-results2.png)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 💻 How to Run Locally
 
-### Making a Progressive Web App
+### 🔽 Prerequisites
+- Node.js installed
+- MongoDB connection string
+- OpenAI API key
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+### 📦 Backend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. **Navigate to the backend folder:**
+   ```bash
+   cd medmate/backend
+2. **Install dependencies:**
+    ```bash
+    npm install
+3. **Create a .env file inside the backend folder and add:**
+   ```bash
+   MONGO_URI=your_mongodb_connection_string
+   OPENAI_API_KEY=your_openai_api_key
+4. **Start the Server**
+   ```bash
+   npm start
 
-### Deployment
+ **Runs on http://localhost:5003** 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 💻 Frontend Setup
+1. **Navigate to the frontend folder:**
+   ```bash
+   cd medmate/frontend
+2. **Install dependencies:**
+   ```bash
+   npm install
+3. **Create a .env file inside the frontend folder and add:**
+   ```bash
+   REACT_APP_BACKEND_URL=http://localhost:5003
+4. **Start the frontend:**
+   ```bash
+   npm start
+**Runs on http://localhost:3000**
 
-### `npm run build` fails to minify
+### 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+
+                                                 Made by Aryan ❤️ 
