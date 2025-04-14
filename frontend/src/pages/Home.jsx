@@ -6,7 +6,7 @@ const Home = () => {
     <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header className="mb-auto">
         <div>
-          <h3 className="float-md-start mb-0">Medical Diagnosis App</h3>
+          <h3 className="float-md-start mb-0">🧬 MedMate</h3>
         </div>
       </header>
 
