@@ -44,7 +44,7 @@ MedMate is a full-stack medical diagnosis web application that uses AI to analyz
 ## 📸 Screenshots
 
 
-### 🔑 Home 
+### 🏠 Home 
 ![Home](./screenshots/home.png)
 
 ### 🔑 Login Page  
@@ -57,7 +57,7 @@ MedMate is a full-stack medical diagnosis web application that uses AI to analyz
 
 ---
 
-### 🏠 Dashboard  
+### 📊 Dashboard  
 ![Dashboard](./screenshots/homepage.png)
 
 ---
