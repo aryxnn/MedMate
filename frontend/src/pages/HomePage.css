@@ -1,0 +1,14 @@
+.homepage-container {
+    min-height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1588776814546-ec89c9c218f2'); /* you can use any cool image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .content-wrapper {
+    flex: 1;
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  
